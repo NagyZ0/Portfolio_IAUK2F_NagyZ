@@ -5,8 +5,13 @@ body
 { 
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     color: #333; background-color: #f4f7f6;
-    line-height: 1.6; display: flex; justify-content: center; align-items: center;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh; 
+    flex-direction: column;
+  
 }
 
 .profile-img
@@ -187,3 +192,10 @@ footer
     border-top: 1px solid #ddd;
 }
 
+@media screen and (max-width: 768px)
+{
+.kontener
+{
+padding: 10px;
+}    
+}
